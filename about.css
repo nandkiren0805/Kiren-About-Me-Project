@@ -1,4 +1,6 @@
-
+.custom-navbar {
+  background: linear-gradient(to bottom, #fff9dc, #fad3a2);
+}
 
 .container5 {
   max-width: 80%;
@@ -20,10 +22,23 @@ img {
   margin-right: auto; 
 }
 h1 {
-  font-family: 'Tinos', serif;
-  color: #333333;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 20px;
   text-align: center;
+}
+
+figcaption {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 15px;
+  line-height: 1.7;
+}
+p {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .accordion-button {
   background-color: #fad3a2;
@@ -56,6 +71,7 @@ h1 {
   border-radius: 10px;
   background-color: #fff8ea;
   text-align: center;
+ 
 }
 
 
@@ -167,3 +183,4 @@ main {
   padding:20px;
   max-width:80%;
 }
+
