@@ -17,17 +17,18 @@
       rel="stylesheet"
     />
 
-    <link href="style.css" rel="stylesheet" />
+    <link href="about.css" rel="stylesheet" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
       defer
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
-  <body class="home">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
         <a class="navbar-brand" href="#">Kiren Nand</a>
         <button
           class="navbar-toggler"
@@ -46,32 +47,32 @@
               <a class="nav-link active" aria-current="page" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Personal</a>
+              <a class="nav-link" href="#personal">Personal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container-fluid">
+   <div class="container5">
       <header>
+        <section id=""about">
         <h1 class="text-center">Hi! My name is Kiren Nand</h1>
       </header>
       <article>
-        <figure class="row">
-          <div class="img-container col-3 col-md-4">
+          <div>
             <img src="kiren.jpg" class="img" alt="Kiren Nand" />
           </div>
-          <figcaption class="col-9 col-md-8">
-            Hello! My name is Kiren Nand. I graduated from Cinta Aveda Institute
+          <figcaption>
+            I graduated from Cinta Aveda Institute
             in 2021 where I obtained my manicurist license. Although my
             background started in the beauty industry, I discovered an interest
             in tech and now, I’m transitioning into tech through Dev/Mission’s
@@ -79,7 +80,87 @@
             HTML, CSS and more. I'm eager to bring my creativity and reliability
             into a growing career in tech.
           </figcaption>
-        </figure>
+          </div>
+          </section>
+          <section id="skills">
+          <h1> Skills</h1>
+          <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Technical Skills
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          IoT skills <br>
+HTML <br>
+Data Entry <br>
+GitHub <br>
+Fix minor technical issues <br>
+POS systems <br>
+CSS <br>
+Bootstrap<br>
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Soft Skills
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+Customer service <br>
+Punctual<br>
+Bilingual (English & Hindi)<br>
+Flexible<br>
+Ability to work under pressure<br>
+Organized<br>
+Cash handling<br>
+Problem Solving<br>
+Adaptability<br>
+Attention to detail<br>
+Conflict resolution<br>
+Reliable<br>
+Strong work ethic<br>
+    </div>
+  </div>
+</div>
+</section>
+<div class="container4">
+  <section id="personal">
+      <h1> Personal</h1>
+      <p>I was born and raised in the Bay Area, specifically Pittsburg & San Francisco. My ethnic background is Samoan and Indo-Fijian. I'm also a proud mother to 5 amazing children who are the center of my universe. I love spending time with my family, exploring new recipes, baking, and experiencing new places. I enjoy learning about self-improvement and finding balance between personal and professional growth.</p>
+      </div>
+       </section>
+</section>
+<section id="projects">
+<h1> Projects</h1>
+<div class="container1">
+  <a href="https://nandkiren0805.github.io/Kiren-Poem-or-Song/">
+  <button class="button-creative">HTML Project</button>
+  </a>
+</div>
+  <div class="container2">
+  <button class="button-creative">Web App</button>
+</div>
+<div class="container3">
+  <button class="button-creative">IoT Project</button>
+</div>
+ </section>
+  
+  <section id="contact">
+      <h1> Connect With Me</h1>
+      <a href="www.linkedin.com/in/kiren-nand-557426185">
+<button>LinkedIn</button>
+  </a>
+<footer>
+        <p class="text-center">
+          &copy; 2025 Kiren Nand. All rights reserved.
+        </p>
       </article>
     </div>
   </body>
