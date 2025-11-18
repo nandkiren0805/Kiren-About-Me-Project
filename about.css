@@ -263,6 +263,9 @@ header * {
       filter: brightness(0) saturate(100%);
     }
   }
+  .rainbow-hover::before {
+    opacity: 0.8;
+  }
 }
 /* .personal {
   display: none;
